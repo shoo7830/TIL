@@ -25,3 +25,28 @@
 ~~~~
 * block 이름이나 element이름이 길 경우 - 하이픈으로 연결 (강제성 아님)
 
+## Modifiers
+* Modifiers은 block 또는 element의 속성
+* 이 속성은 block 또는 element의 외관이나 상태를 변화시킴
+* Class 명은 "-"를 추가하여 modifier 추가
+~~~~
+.block--modifier {...}
+.block__element--modifier {...}
+~~~~
+* 탭 메뉴가 다른 영역에서 다른 스타일로 사용된다면
+  * 메인 속성을 복사하여 추가하거나
+  * 전 처리 장치인 sass의 @extend를 활용하여 속성을 상속 받음
+~~~~
+.header__navigation {
+  background:#008cba;
+  padding:1px 0;
+  margin:2px 0;
+}
+.header__navigation--secondary {
+  @extend .header__navigation
+  background:#dfee0e0;
+}
+~~~~
+* 클래스 명이 긴게 흠. - 직접 작업할 때 사용해보니 클래스가 길어도 너무 길어지는게 문제.
+  * BEM의 class명은 구체적이고 명료하여 HTML 안에서도 읽기 쉬워야 함.
+  * class 명이 무엇을 나타내는지 분명하게 전달되어야 함.
