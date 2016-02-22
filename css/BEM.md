@@ -29,14 +29,14 @@
 * Modifiers은 block 또는 element의 속성
 * 이 속성은 block 또는 element의 외관이나 상태를 변화시킴
 * Class 명은 "-"를 추가하여 modifier 추가
-~~~~
+~~~~css
 .block--modifier {...}
 .block__element--modifier {...}
 ~~~~
 * 탭 메뉴가 다른 영역에서 다른 스타일로 사용된다면
   * 메인 속성을 복사하여 추가하거나
   * 전 처리 장치인 sass의 @extend를 활용하여 속성을 상속 받음
-~~~~
+~~~~css
 .header__navigation {
   background:#008cba;
   padding:1px 0;
