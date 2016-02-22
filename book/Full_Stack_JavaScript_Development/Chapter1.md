@@ -16,4 +16,49 @@
 
 ### 1.1.3 몽고디비
 * PaaS (Platform as Service) 플랫폼의 구성요소가 될 NoSQL(SQL에 의존하지 않는 데이터 저장소 유형) 데이터베이스 개발함 (10gen, 지금의 MongoDB.Inc) 
-* 
+* 문서 중심 데이터베이스이며 정보를 BSON(Binary JSON) 문서 형태로 저장
+* 자바스크립트 객체에 기반을 둔 질의로 SQL을 대체
+
+### 1.1.4 앵귤러
+* 단일 페이지 앱 (SPA, Single Page Application)은 엄격한 의미에서 딱 한페이지만 읽고, 나머지 모든 데이터는 Ajax 호출로 요청
+* AngularJS는 SPA용으로 가장 인기 있는 프레임워크
+* 웹 앱에 모델-뷰-컨트롤러(MVC) 를 적용
+* 모델을 조작하는 단순한 앵귤러 컨트롤러
+~~~javascript
+app.controller('PeopleCtrl', ['$scope', function($scope) {
+  $scope.people = [
+    {
+      firstName : 'Colin', 
+      lastName : 'Ihrig'
+    }, 
+    {
+      firstName : 'Adam', 
+      lastName : 'Bretz'
+    }
+  ];
+}]);
+~~~
+people 속성은 사람을 표현하는 단순한 객체 들을 포함하는 배열
+* 단순한 앵귤러 템플릿
+~~~html
+<div ng-repeat="person in people">
+  {{person.lastName}}, {{person.firstName}}
+</div>
+~~~
+
+
+## 1.2 마치며
+* MEAN 스택 : MongoDB, Express, AngularJS, Node.js
+* 참고링크
+  1. http://www.ecma-international.org/publications/standards/Ecma-262.htm
+  2. https://nodejs.org/en/
+  3. https://en.wikipedia.org/wiki/Comparison_of_server-side_JavaScript_solutions
+  4. http://expressjs.com/
+  5. https://angularjs.org/
+  6. https://www.mongodb.org/
+  7. http://hapijs.com/ (익스프레스 대안)
+  8. http://gulpjs.com/
+  9. http://gruntjs.com/
+  10. http://jshint.com/
+  11. https://github.com/node-inspector/node-inspector
+  12. https://github.com/mochajs/mocha
