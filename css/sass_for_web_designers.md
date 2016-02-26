@@ -1,5 +1,5 @@
 # 웹 디자이너를 위한 SASS
-## 왜 SASS 인가?
+## 1. 왜 SASS 인가?
 * SASS 엘리베이터 피치
   * 흩어져있는 색상값을 일괄적으로 바꾸기 편함.
 ~~~css
@@ -38,3 +38,21 @@ p strong {text-transform:uppercase;}
  p strong {text-transform:uppercase;}
  ~~~
 
+## 2. SASS 워크플로
+* 맥에서 설치하기 
+ * Sass는 루비의 gem으로 패키지화 되어 있음
+ * 터미널에서 아래와 같이 입력
+ ~~~
+ $ gem install sass
+ ~~~
+ * 비공식 최신 버전 설치
+ ~~~
+ $ gem install sass --pre
+ ~~~
+
+* 윈도우에서 SASS 설치하기
+ * 윈도우용 루비인스톨러를 이용하여 설치 (http://webactually.com/2014/08/%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C-sass-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/)
+ * 루비 설치 확인 - CMD 실행
+ ~~~
+ ruby -v
+ ~~~
