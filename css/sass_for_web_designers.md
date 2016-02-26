@@ -22,3 +22,19 @@ p {@include default-type}
 footer {@include default-type}
 ~~~
 
+* SASS 문법
+ * SCSS는 CSS를 작성하던 기존의 방식으로 작성할 수 있다.
+ * 작업된 스타일시트에 Sass기능을 적용하여 코드를 점차적으로 변경할 수 있다.
+ * 코드 형식을 변경할 필요가 없다.
+ * SCSS 변환 예제
+ ~~~ css
+$pink:#ea4c89;
+p {font-size:12px;color:$pink;}
+p strong {text-transform:uppercase;}
+ ~~~
+
+ ~~~css
+ p {font-size:12px;color:#ea4c89;}
+ p strong {text-transform:uppercase;}
+ ~~~
+
