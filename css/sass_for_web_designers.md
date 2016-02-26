@@ -4,8 +4,12 @@
   * 흩어져있는 색상값을 일괄적으로 바꾸기 편함.
 ~~~css
 $brand-color:#fc3;
-a {color:$brand-color;}
-nav {background-color:$brand-color;}
+a {
+ color:$brand-color;
+}
+nav {
+ background-color:$brand-color;
+}
 ~~~
 
   * 반복되는 스타일 블록을 재사용할 수 있는 블록으로 사용가능.
@@ -16,10 +20,16 @@ footer {margin-bottom:20px;font-size:14px;line-height:1.5}
 ~~~
 
 ~~~css
-@mixin default-type {margin-bottom:20px;font-size:14px;line-height:1.5;}
+@mixin default-type {
+ margin-bottom:20px;font-size:14px;line-height:1.5;
+}
 
-p {@include default-type}
-footer {@include default-type}
+p {
+ @include default-type
+}
+footer {
+ @include default-type
+}
 ~~~
 
 * SASS 문법
@@ -29,8 +39,12 @@ footer {@include default-type}
  * SCSS 변환 예제
  ~~~ css
 $pink:#ea4c89;
-p {font-size:12px;color:$pink;}
-p strong {text-transform:uppercase;}
+p {
+ font-size:12px;color:$pink;
+}
+p strong {
+ text-transform:uppercase;
+}
  ~~~
 
  ~~~css
