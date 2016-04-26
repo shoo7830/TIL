@@ -23,7 +23,7 @@ function setCategory(seqno, category) {
 	}
 
 	setCategory(0, 'category1');
-	~~~~
+~~~
 
 
 ## 페이징
