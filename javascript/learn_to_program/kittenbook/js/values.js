@@ -1,13 +1,18 @@
 /**
  * Created by shoo7830 on 2016. 5. 26..
  */
-var projectName = 'kittenbook';
-var versionNumber = '0.0.1';
-var currentDate = new Date();
+var kbValues = {
+    projectName: 'kittenbook',
+    versionNumber: '0.0.1',
+    areaCodes: {
+        '408': 'Silicon Valley',
+        '702': 'Las Vegas',
+        '801': 'Utah',
+        '765': 'West Lafayette',
+        '901': 'Memphis'
+    }
+};
 
-var currentTime = currentDate.getFullYear() + '-' +
-    (currentDate.getMonth() + 1) + '-' +
-        currentDate.getDate() + ' at ' +
-        currentDate.getHours() + ':' +
-        currentDate.getMinutes() + ':' +
-        currentDate.getSeconds();
+function getAreaCodes() {
+    return kbValues.areaCodes;
+}
