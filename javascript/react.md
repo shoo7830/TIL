@@ -6,3 +6,15 @@ class App extends React.component {...} // (x)
 
 class App extends React.Component {...} // (o)
 ```
+
+2. React Fundamentals: Precompile JSX
+
+```
+sudo npm install bable-cli -g
+```
+
+```
+babel --presets react App.js -o dist.js --watch
+```
+
+라고 하면 실시간으로 JSX를 변환시킨다.
