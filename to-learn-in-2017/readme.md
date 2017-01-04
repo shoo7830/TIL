@@ -34,5 +34,31 @@
 * SASS
 * LESS
 
-## 
+## 백엔드
+* Node.js - Express, Koa, Next, Nodal
+* PHP - Laravel, Zend, Symfony
+* Ruby - Rails, Sinatra
+* Python - Django, Flask
+* Java - Play, Spark
 
+## 데이터베이스
+* MySQL
+* PostgreSQL
+* CouchDB
+* PouchDB
+* Redis
+
+## 도구
+* Yarn
+* Visual Studio Code
+* Atom
+* Git - GitLab, Bitbucket, Github
+* Electron
+* NW.js
+* Ansible
+* Docker
+
+## 기술
+* 클라우드 - AWS, Google Cloud, Azure
+* 인공지능 - Tensor Flow, Cognitive Toolkit
+* 가상현실, 증강현실 - Oculus Rift, Daydream, Windows Holographic
