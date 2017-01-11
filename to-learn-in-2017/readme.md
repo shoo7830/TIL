@@ -26,19 +26,19 @@
 
 ## 프론트엔드
 * Angular2
-* Vue.js
+* `Vue.js`
 * Ember
 * Aurelia
-* React
+* `React`
 * Bootstrap
-* SASS
+* `SASS`
 * LESS
 
 ## 백엔드
 * Node.js - Express, Koa, Next, Nodal
 * PHP - Laravel, Zend, Symfony
 * Ruby - Rails, Sinatra
-* Python - Django, Flask
+* `Python - Django,` Flask
 * Java - Play, Spark
 
 ## 데이터베이스
