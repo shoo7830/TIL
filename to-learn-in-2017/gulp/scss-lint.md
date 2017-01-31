@@ -1,6 +1,6 @@
 # gulp-scss-lint
 ~~~
-$ gem install gulp-scss-lint
+$ gem install scss_lint
 ~~~
 
 ~~~ js
