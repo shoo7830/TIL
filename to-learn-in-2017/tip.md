@@ -9,3 +9,9 @@
 ~~~
 rm delete-symobolic-link-name
 ~~~
+
+## Search for specific words
+~~~
+find ./ -name '*.*' | egrep -v svn | xargs grep --color=auto "찾는 단어"
+~~~
+
