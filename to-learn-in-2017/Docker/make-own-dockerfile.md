@@ -36,3 +36,9 @@ ubuntu              14.04               b969ab9f929b        6 weeks ago         
 hello-world         latest              48b5124b2768        7 weeks ago         1.84 kB
 centos              latest              67591570dd29        11 weeks ago        191.8 MB
 ~~~
+
+## Registry upload (authentication required)
+~~~ cmd
+$ sudo docker tag shoo7830/hexo:latest docker.gabia.com/hexobuild:1.0
+$ sudo docker push docker.gabia.com/hexobuild
+~~~
