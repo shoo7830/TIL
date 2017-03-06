@@ -22,7 +22,7 @@ CMD ["hexo", "server", "-i", "0.0.0.0"]
 
 ## Dockerfile build
 ~~~ cmd
-docker build -t shoo7830/hexo .
+$ sudo docker build -t shoo7830/hexo .
 ~~~
 
 
