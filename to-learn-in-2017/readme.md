@@ -11,7 +11,7 @@
 
 ## 언어
 * JavaScript - ES2017 2017 중순에 확정. 비동기 함수 async / await 도입 예정. Babel로 사용 가능
-* TypeScript 
+* `TypeScript` 
 * C#
 * Python 
 * Ruby
@@ -25,7 +25,7 @@
 * Go
 
 ## 프론트엔드
-* Angular2
+* `Angular2`
 * `Vue.js`
 * Ember
 * Aurelia
@@ -39,7 +39,7 @@
 * PHP - Laravel, Zend, Symfony
 * Ruby - Rails, Sinatra
 * `Python - Django,` Flask
-* Java - Play, Spark
+* `Java` - Play, Spark
 
 ## 데이터베이스
 * MySQL
@@ -50,13 +50,13 @@
 
 ## 도구
 * Yarn
-* Visual Studio Code
-* Atom
-* Git - GitLab, Bitbucket, Github
+* `Visual Studio Code`
+* `Atom`
+* `Git` - GitLab, Bitbucket, Github
 * Electron
 * NW.js
 * Ansible
-* Docker
+* `Docker`
 
 ## 기술
 * 클라우드 - AWS, Google Cloud, Azure
