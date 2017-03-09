@@ -60,3 +60,8 @@ find ./ -name '*.*' | egrep -v svn | xargs grep --color=auto "찾는 단어"
 }
 ~~~
 
+## remove php (previous version)
+~~~
+$ sudo yum remove php*
+~~~
+
