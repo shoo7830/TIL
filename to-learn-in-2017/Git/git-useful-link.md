@@ -17,3 +17,11 @@
 ## Pro git
 * Pro git 한글 번역 페이지입니다.
 * 링크: https://git-scm.com/book/ko/v2
+
+## 누구나 쉽게 이해할 수 있는 Git입문
+* 지금부터 Git을 사용한 버전 관리 기능을 함께 공부해 보자구요!!! 총 3가지의 코스가 준비되어 있습니다. Git 초보자 분들은 '입문편'부터 시작해주세요. Git을 사용한 적이 있으신 분은 '발전편'을 추천 합니다. '어? 뭐였지...?' 싶을 때는 '찾아보기'를 확인하세요.
+* 링크: https://backlogtool.com/git-guide/kr/
+
+## Git - SVN Crash Course
+* Welcome to the Git version control system! Here we will briefly introduce you to Git usage based on your current Subversion knowledge. You will need the latest Git installed; There is also a potentially useful tutorial in the Git documentation.
+* 링크: http://git.or.cz/course/svn.html
