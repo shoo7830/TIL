@@ -14,7 +14,11 @@
   * React.js
   * tensorflow.js
   * Testing tool
+  * webpack
 * TypeScript
 * Python
   * Django
+* Data Handling
+  * GraphQL
+  * RestAPI
 
