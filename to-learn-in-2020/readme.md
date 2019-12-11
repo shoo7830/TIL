@@ -5,14 +5,14 @@
   * Sass
 * WAI-ARIA
 * JavaScript
-  * ES6
+  * ES2018+
   * Node.js
-  * Express
+  * Koa
   * MongoDB
+  * Svelte
   * Vue.js
   * React.js
-  * tensorflow.js
-  * Testing tool
+  * Testing tool (any)
   * webpack
 * TypeScript
 * Python
@@ -20,3 +20,4 @@
 * Data Handling
   * GraphQL
   * RestAPI
+* 
