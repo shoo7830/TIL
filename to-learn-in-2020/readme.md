@@ -15,6 +15,7 @@
   * Testing tool (any)
   * webpack
 * TypeScript
+* flutter
 * Python
   * Django
 * Data Handling
